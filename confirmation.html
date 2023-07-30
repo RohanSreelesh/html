@@ -1,9 +1,39 @@
-<h2>Welcome to FitFinder!</h2>
-<p>We're delighted you've chosen FitFinder, your ultimate gateway to find a dedicated trainer or advertise your unique training skills!</p>
-<p>To activate your account and start connecting with our fitness community, please confirm your email address.</p>
-<p><a href="{{ .ConfirmationURL }}">Click here to confirm your email</a></p>
-<p>Once your email is confirmed, you'll gain full access to FitFinder's extensive network of trainers and fitness enthusiasts. Start exploring, connecting, and strengthening your fitness journey!</p>
-<p>If you have any questions or need assistance, we're here to help. Feel free to reach out.</p>
-<p>Welcome to FitFinder, where fitness meets convenience and community.</p>
-<p>Best Regards,</p>
-<p>Your FitFinder Team</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to FitFinder!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            color: #4a4a4a;
+        }
+        p {
+            color: #666666;
+        }
+        a {
+            color: #ffffff;
+            background-color: #0088cc;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 3px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div style="max-width: 600px; margin: 0 auto;">
+        <h2>Welcome to FitFinder!</h2>
+        <p>Dear User,</p>
+        <p>We're delighted you've chosen FitFinder, your ultimate gateway to finding a dedicated trainer or advertising your unique training skills!</p>
+        <p>To activate your account and start connecting with our fitness community, please click the button below to confirm your email address.</p>
+        <a href="{{ .ConfirmationURL }}">Confirm your email</a>
+        <p>Once your email is confirmed, you'll gain full access to FitFinder's extensive network of trainers and fitness enthusiasts. Start exploring, connecting, and strengthening your fitness journey!</p>
+        <p>If you have any questions or need assistance, we're here to help. Feel free to reach out.</p>
+        <p>Welcome to FitFinder, where fitness meets convenience and community.</p>
+        <p>Best Regards,</p>
+        <p>Your FitFinder Team</p>
+    </div>
+</body>
+</html>
